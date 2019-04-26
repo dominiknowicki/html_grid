@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Execon ITS</title>
+    <!-- TODO: use scss -->
+    <link rel="stylesheet" href="css/general.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <header>
+        <h1>
+            Header
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Menu 1</li>
+            <li>Menu 2</li>
+            <li>Menu 3</li>
+            <li>Menu 4</li>
+        </ul>
+    </nav>
+    <main>
+        <form>
+            <input id="main-form-input-fullname" name="fullname" type="text" 
+                placeholder="Wprowadź imię (min. 2 znaki)" maxlength="20" required
+                oninvalid="this.setCustomValidity('Wprowadź min. 2 znaki')"
+                oninput="this.setCustomValidity('')" />
+            <button id="main-form-button-submit" type="submit">Wyślij</button>
+        </form>
+    </main>
+    <footer>
+    <nav>
+        <ul>
+            <li>Menu 1</li>
+            <li>Menu 2</li>
+            <li>Menu 3</li>
+            <li>Menu 4</li>
+        </ul>
+    </nav>        
+    </footer>        
+  </body>
+</html>
